@@ -1,0 +1,103 @@
+
+/* General Page Style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* background: linear-gradient(90deg, #170c3b, #f5eefc); */
+
+/* background: #453A63;
+background: linear-gradient(229deg, rgba(69, 58, 99, 1) 10%, rgba(60, 49, 91, 1) 25%, rgba(23, 12, 59, 1) 52%); */  background: #ad69f0;
+background: linear-gradient(286deg, rgba(173, 105, 240, 1) 0%, rgba(60, 49, 91, 1) 37%, rgba(35, 24, 69, 1) 56%, rgba(23, 12, 59, 1) 65%);
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Header */
+.header h1 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Button Container */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 40px 0;
+}
+
+/* Choice Buttons */
+.choice-button {
+    background: #ffffff20;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+    padding: 15px;
+}
+
+.choice-button:hover {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.choice-image {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+/* Scoreboard */
+.score-board {
+    margin-top: 10px;
+}
+
+.score-board h3 {
+    font-size: 1.2rem;
+    margin: 8px 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* Reset Button  */
+.reseet-btn {
+    margin: 30px 0 50px;
+}
+
+.resetBtn {
+    padding: 15px 45px;
+    font-size: 1rem;
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.resetBtn:hover {
+    background-color: #e84118;
+    transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .choice-image {
+        height: 80px;
+        width: 80px;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .btn-container {
+        gap: 15px;
+    }
+}
