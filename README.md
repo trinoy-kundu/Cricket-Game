@@ -5,7 +5,7 @@ The game lets the user play against the computer by choosing Bat, Ball, or Stump
 
 What I Used
 
-|	HTML5 → to design the basic structure of the game interface
+ HTML5 → to design the basic structure of the game interface
 |	CSS3 → to style the buttons, layout, and text
 |	JavaScript (ES6) → for all the game logic and interactivity:
 |	Used functions to organize code (e.g., getResult(), showResult(), generateComputerChoice())
@@ -15,7 +15,7 @@ What I Used
 
 What I Learned
 
-|	How to connect HTML, CSS, and JavaScript together in one project
+ How to connect HTML, CSS, and JavaScript together in one project
 |	How to handle user input and update elements dynamically in the browser
 |	The use of localStorage for saving and restoring data
 |	How to create and call functions efficiently
