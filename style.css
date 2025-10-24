@@ -3,12 +3,9 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
-    /* background: linear-gradient(90deg, #170c3b, #f5eefc); */
-
-/* background: #453A63;
-background: linear-gradient(229deg, rgba(69, 58, 99, 1) 10%, rgba(60, 49, 91, 1) 25%, rgba(23, 12, 59, 1) 52%); */  background: #ad69f0;
-background: linear-gradient(286deg, rgba(173, 105, 240, 1) 0%, rgba(60, 49, 91, 1) 37%, rgba(35, 24, 69, 1) 56%, rgba(23, 12, 59, 1) 65%);
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ad69f0;
+    background: linear-gradient(286deg, rgba(173, 105, 240, 1) 0%, rgba(60, 49, 91, 1) 37%, rgba(35, 24, 69, 1) 56%, rgba(23, 12, 59, 1) 65%);
     color: white;
     text-align: center;
     min-height: 100vh;
