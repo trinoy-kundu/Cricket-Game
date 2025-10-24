@@ -43,15 +43,12 @@ document.querySelector('.stump').addEventListener('click', function() {
 
 function generateComputerChoice() {
     let randomNumber = Math.floor(Math.random() * 3);
-    console.log(randomNumber);
 
-    if(randomNumber >= 0 && randomNumber <= 1) {
+    if (randomNumber === 0) {
         return 'bat';
-    }
-    else if(randomNumber > 1 && randomNumber <= 2) {
+    } else if (randomNumber === 1) {
         return 'ball';
-    }
-    else {
+    } else {
         return 'stump';
     }
 }
